@@ -20,7 +20,7 @@ body {
     padding: 01px;
     margin-left: 6%;
     margin-top: 10px;
-    margin-right: 350px;
+    margin-right: 400px;
 }
 .article h2{
   margin-left: 35%;
@@ -57,7 +57,7 @@ body {
   top: 5px;
   right: 10px;
   bottom: 5px;
-  width: 300px;
+  width: 350px;
 }
 
 .chat-messages {
