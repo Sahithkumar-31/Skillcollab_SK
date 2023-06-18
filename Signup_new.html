@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Welcome to Skill Collab</title>  
+   
+
+</head>
+<body>
+    <link rel="stylesheet" href="Signup_new.css">
+    <script src="https://kit.fontawesome.com/0968f98cc3.js" crossorigin="anonymous"></script>
+   
+    <div id = "first">
+      <div class = "div11" id = "firstdiv1"><image id = "logo" src="logo.png" width = "10%" height = "20%"></image></div>
+      <div class = "div12" id = "firstdiv2"><h3 id = "smallheading">SKILL<br/> COLLAB</h3></div>
+  </div>
+
+    <div class="container">
+    
+        <div class="article">
+          <h2> Just Few Steps </h2>
+          <p><b>Step 1:- Personal Details</b></p>
+          <p><b>Step 2:- Institute or Organization Details</b></p>
+          <p><b>Step 1:- Acceptance of Terms and Conditions</b></p>
+
+          <h3>Explore and Collabarate</h3>
+
+        </div>
+
+<!--REGISTER FORM STARTS FORM HERE-->    
+        <div class="form-container">
+          <form class="form1">
+            <h2>Register</h2>
+
+            <label class = "lable_elements"><b>Name:</b><span class="required">*</span></label><br>
+            <div id = "usersymbol">
+            <i class="fas fa-user fa-1x"></i></div>
+            <input id = "input_elements" type="text" placeholder="First Name" name="first-name" required>
+            <br>
+
+            <label class = "lable_elements">Last Name:</label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-user fa-1x"></i></div>
+            <input id = "input_elements" type="text" placeholder="Last Name" name="last-name">
+            
+            <br>
+            <label class = "lable_elements">E-mail id:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-envelope fa-1x"></i></div>
+            <input id = "input_elements" type="email" placeholder="E-mail" name="email" required>
+
+            <br>
+             <label class = "lable_elements" >Gender:<span class="required">*</span></label>
+             <br>
+
+             <div class = "rd_container">
+             <label for="male">Male</label>
+             <input type="radio" id="rb" name="gender" value="male" required>
+
+             <label for="female">Female</label>
+             <input type="radio" id="rb" name="gender" value="female" required>
+
+             <label for="other">Other</label>
+             <input type="radio" id="rb" name="gender" value="other" required>
+            </div>
+             <br>
+             <label class = "lable_elements" for="occupation">Occupation:</label>
+             <select id="occupation" name="occupation" required>
+                  <option value="">Select an option</option>
+                   <option value="student">Student</option>
+                   <option value="teacher">Teacher</option>
+                        <option value="employee">Employee</option>
+             </select>
+             <br>
+             <br>
+             <div class = "combbttn">
+            <input id = "bttn" type = "submit" value="Next" class="form1bttn"></input>
+            </div>
+        </form>
+<!--STUDENT FORM STARTS FORM HERE-->
+
+          <form class="student">
+            <h2>Institute Details</h2>
+            <label class = "lable_elements">Institute Name:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-university fa-1x"></i></div>
+            <input id = "input_elements" type="text" placeholder="Name" name="college-name" required>
+            
+            <br>
+            <label class = "lable_elements">Branch:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-book fa-1x"></i></div>
+            <input id = "input_elements" type="text" placeholder="Branch" name="branch" required>
+            
+            <br>
+            <label class = "lable_elements" for="password">Password:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-lock fa-1x"></i></div>
+            <input id = "input_elements" type="password" placeholder="Password" name="password" required>
+            
+            <br>
+            <label class = "lable_elements" for="confirm-password">Confirm Password:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-lock fa-1x"></i></div>
+            <input id = "input_elements" type="password" placeholder="Confirm-Password" name="confirm-password" required>
+            
+            <br>
+            <div class = "combbttn">
+            <input id = "bttn" type = "submit" value="Register" class="studentbttn"></input>
+          </div>
+          </form>
+
+<!--ORGANIZATION FORM STARTS FORM HERE-->
+          <form class="organization">
+            <h2>Organization</h2>
+
+            <label class = "lable_elements" for="college-name">Organization Name:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-building fa-1x"></i></div>
+            <input id = "input_elements" type="text" placeholder="Organization Name" name="college-name" required>
+            
+            <br>
+            <label class = "lable_elements" for="branch">Field of Organization:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-book fa-1x"></i></div>
+            <input id = "input_elements" type="text" placeholder="Field" name="branch" required>
+            
+            <br>
+            <label class = "lable_elements" for="password">Password:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-lock fa-1x"></i></div>
+            <input id = "input_elements" type="password" placeholder="Password" name="password" required>
+            
+            <br>
+            <label class = "lable_elements" for="confirm-password">Confirm Password:<span class="required">*</span></label><br>
+            <div id = "usersymbol">
+              <i class="fas fa-lock fa-1x"></i></div>
+            <input id = "input_elements" type="password" placeholder="Confirm-Password" name="confirm-password" required>
+            
+            <br>
+            <div class = "combbttn">
+            <input id = "bttn" type = "submit" value="Register" class="organizationbttn"></input>
+           </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="new-article">
+            Terms and conditions
+          </div>
+        </div>
+      </div>
+      
+    <script src="signup_form_new.js"></script>
+</body>
