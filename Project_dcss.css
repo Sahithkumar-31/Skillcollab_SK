@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background-color: #222;
     margin: 0;
     padding: 0;
 }
@@ -45,7 +45,8 @@ body {
 .chat-container {
     flex: 2.5;
     padding: 10px;
-    background-color: rgb(255, 227, 227);
+    /*background-color: rgb(255, 227, 227);*/
+    background-color:#666;
     margin-top: 5px;
     height: 96%;
     border-radius: 10px;
