@@ -1,0 +1,143 @@
+body {
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  /*Header content*/
+  .header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /*Skill collab name*/
+  .site-name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .site-name {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+  }
+  /*Drop down - explore bttn*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .explore-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #66c2ff; /* Light blue color */
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:hover{
+    background-color: #444;
+  }
+
+  /*Search bar*/
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #666;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+/*Remaining elements*/
+ .online-patent,
+ .home-page,.online-patent {
+   margin-right: 20px;
+ }
+
+/*Profile stuff*/
+ .divider {
+    height: 40px;
+    width: 1px;
+    background-color: #666;
+    margin: 0 20px;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  .profile-name {
+    margin-right: 15px;
+  }
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    background-color: #666;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .profile-pic:hover{
+    cursor: pointer;
+
+  }
+  /*Home div*/
+  .project-contents{
+    margin:30px;
+  }
+  /*tab contents*/
+  .tab {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .project-info{
+    color: #222;
+  }
+  .level{
+    color: #222;
+  }
