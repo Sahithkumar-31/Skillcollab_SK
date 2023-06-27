@@ -140,8 +140,11 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    display: flex;
-  align-items: flex-start;
+    transition: transform 0.1s, box-shadow 0.3s;
+  }
+  .tab:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px white(0, 0, 0, 0.2);
   }
   .project-contents .tab {
     display: inline-block;
@@ -151,6 +154,10 @@ body {
   }
   .level{
     color: #222;
+  }
+  .project-info{
+    margin-top: -20px;
+    margin-bottom: 40px;
   }
 .image-container{
   display: inline-block;
@@ -171,3 +178,31 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
+
+
+/*button*/
+.button-container {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -30px;
+}
+.getinbttn{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4ca3af;
+  color: white;
+  border: 2px solid transparent;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+.getinbttn:hover{
+  cursor: pointer;
+  background-color: #9ea045;
+}
+.getinbttn:active{
+  border: 2px solid black;
+}
+
