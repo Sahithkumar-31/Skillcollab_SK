@@ -189,20 +189,78 @@ body {
 .getinbttn{
   padding: 10px;
   border-radius: 5px;
-  background-color: #4ca3af;
+  background-color:#83ca66;
   color: white;
   border: 2px solid transparent;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-weight: bold;
   transition-duration: 0.3s;
 }
 .getinbttn:hover{
   cursor: pointer;
-  background-color: #9ea045;
+  color: #83ca66;
+  border: 2px solid #83ca66;
+  background-color: #f2f2f2;
 }
 .getinbttn:active{
   border: 2px solid black;
 }
 
+/*Article Styles*/
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.popup-content article {
+  /* Add styles to the article */
+  color: black;
+}
+
+.popup-content .close-btn {
+  margin-top: 10px;
+}
+
+.popup-content .close-btn:focus {
+  outline: none;
+}
+.popup-content h2{
+  margin-left: 25%;
+}
+/*Terms bttn*/
+#con_bttn{
+  padding:10px;
+  background-color: #83ca66;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+#con_bttn:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: #83ca66;
+  border:2px solid #83ca66;
+}
+
+.close-btn{
+  margin-left: 65%;
+}
