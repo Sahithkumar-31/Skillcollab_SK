@@ -58,24 +58,18 @@ clickme3Button.addEventListener('click', (event) => {
     organizationForm.style.zIndex = '1'; // Set organization form z-index higher
     openModal();
   } else {
-    organizationForm.reportValidity(); // Show validation messages
+    organizationForm.reportValidity(); 
   }
 });
 
 function openModal() {
   modal.style.display = 'block';
-  // Add blur effect to the background
   //document.body.style.filter = 'blur(5px)';
 }
 
 function closeModal() {
   modal.style.display = 'none';
-  // Remove blur effect from the background
   document.body.style.filter = 'none';
 }
 
 closeBtn.addEventListener('click', closeModal);
-
-// You can populate the new article content dynamically here if needed
-// Example:
-newArticle.innerHTML = '<h2>New Article</h2><p>This is the new article content.</p>';
